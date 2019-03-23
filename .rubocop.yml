@@ -1,12 +1,98 @@
 AllCops:
-  DisplayCopNames: true
-  DisplayStyleGuide: true
-  ExtraDetails: false
   TargetRubyVersion: 2.5
-  
 Rails:
   Enabled: true
 
+Layout/AccessModifierIndentation:
+  EnforcedStyle: indent
+  Enabled: true
+
+Layout/AlignParameters:
+  EnforcedStyle: with_first_parameter
+  Enabled: true
+  
+Layout/CaseIndentation:
+  EnforcedStyle: case
+  IndentOneStep: true
+  Enabled: true
+
+Layout/EmptyLinesAroundBlockBody:
+  EnforcedStyle: no_empty_lines
+  Enabled: true
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: no_empty_lines
+  Enabled: true
+
+Layout/EmptyLinesAroundModuleBody:
+  EnforcedStyle: no_empty_lines
+  Enabled: true
+
+Layout/SpaceAroundBlockParameters:
+  EnforcedStyleInsidePipes: no_space
+  Enabled: true
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: space
+  Enabled: true
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: no_space
+  EnforcedStyleForEmptyBrackets: no_space
+  Enabled: true
+
+Layout/SpaceInsideParens:
+  EnforcedStyle: no_space
+  Enabled: true
+
+Layout/SpaceInsideStringInterpolation:
+  EnforcedStyle: no_space
+  Enabled: true
+
+Naming/MethodName:
+  EnforcedStyle: snake_case
+  Enabled: true
+
+Naming/VariableName:
+  EnforcedStyle: snake_case
+  Enabled: true
+
+Style/AccessModifierDeclarations:
+  EnforcedStyle: group
+  Enabled: true
+
+Style/ConditionalAssignment:
+  EnforcedStyle: assign_to_condition
+  Enabled: true
+
+Style/For:
+  EnforcedStyle: each
+  Enabled: true
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_parentheses
+  Enabled: true
+
+Style/MissingElse:
+  EnforcedStyle: case
+  Enabled: true
+
+Style/Next:
+  EnforcedStyle: skip_modifier_ifs
+  Enabled: true
+
+Style/PreferredHashMethods:
+  EnforcedStyle: short
+  Enabled: true
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: single_quotes
+  Enabled: true
+
+Style/WordArray:
+  EnforcedStyle: percent
+  Enabled: true
+  
 Metrics/AbcSize:
   Max: 100
 
@@ -36,9 +122,3 @@ Metrics/ParameterLists:
 
 Metrics/LineLength:
   Max: 450
-
-Layout/CaseIndentation:
-  Enabled: true
-  EnforcedStyle: case
-  IndentOneStep: true
-
