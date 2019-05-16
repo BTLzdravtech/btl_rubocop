@@ -94,7 +94,7 @@ Style/WordArray:
   Enabled: true
   
 Metrics/AbcSize:
-  Max: 100
+  Max: 200
 
 Metrics/BlockLength:
   Max: 100
