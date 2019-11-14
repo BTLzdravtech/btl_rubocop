@@ -1,5 +1,8 @@
+require: rubocop-rails
+
 AllCops:
   TargetRubyVersion: 2.5
+  
 Rails:
   Enabled: true
 
