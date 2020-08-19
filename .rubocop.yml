@@ -88,9 +88,14 @@ Style/PreferredHashMethods:
   EnforcedStyle: short
   Enabled: true
 
+# Checks if uses of quotes match the configured preference.
+Style/StringLiterals:
+  Enabled: false
+
+# Checks if uses of quotes inside expressions in interpolated strings match the
+# configured preference.
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: single_quotes
-  Enabled: true
+  Enabled: false
 
 Style/WordArray:
   EnforcedStyle: percent
