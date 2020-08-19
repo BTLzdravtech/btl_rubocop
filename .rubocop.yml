@@ -1,8 +1,8 @@
 require: rubocop-rails
 
 AllCops:
-  TargetRubyVersion: 2.5
-  
+  TargetRubyVersion: 2.6
+
 Rails:
   Enabled: true
 
@@ -10,10 +10,10 @@ Layout/AccessModifierIndentation:
   EnforcedStyle: indent
   Enabled: true
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   EnforcedStyle: with_first_parameter
   Enabled: true
-  
+
 Layout/CaseIndentation:
   EnforcedStyle: case
   IndentOneStep: true
@@ -95,7 +95,7 @@ Style/StringLiteralsInInterpolation:
 Style/WordArray:
   EnforcedStyle: percent
   Enabled: true
-  
+
 Metrics/AbcSize:
   Max: 200
 
@@ -123,5 +123,5 @@ Metrics/MethodLength:
 Metrics/ParameterLists:
   Max: 10
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 450
