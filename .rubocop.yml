@@ -6,6 +6,9 @@ AllCops:
 Rails:
   Enabled: true
 
+Layout/ArgumentAlignment:
+  Enabled: false
+
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
   Enabled: true
