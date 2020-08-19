@@ -81,7 +81,7 @@ Style/AccessModifierDeclarations:
   EnforcedStyle: group
   Enabled: true
 
-Style/ClassAndModuleChildren
+Style/ClassAndModuleChildren:
   Enabled: false
 
 Style/ConditionalAssignment:
