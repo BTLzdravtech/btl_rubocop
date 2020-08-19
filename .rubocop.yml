@@ -47,6 +47,11 @@ Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyleForEmptyBrackets: no_space
   Enabled: true
 
+Layout/SpaceInsideHashLiteralBrackets:
+  EnforcedStyle: no_space
+  EnforcedStyleForEmptyBrackets: no_space
+  Enabled: true
+
 Layout/SpaceInsideParens:
   EnforcedStyle: no_space
   Enabled: true
