@@ -22,6 +22,12 @@ Layout/CaseIndentation:
   IndentOneStep: true
   Enabled: true
 
+Layout/ElseAlignment:
+  Enabled: false
+
+Layout/EndAlignment:
+  Enabled: false
+
 Layout/EmptyLinesAroundBlockBody:
   EnforcedStyle: no_empty_lines
   Enabled: true
@@ -47,7 +53,7 @@ Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyleForEmptyBrackets: no_space
   Enabled: true
 
-Layout/SpaceInsideHashLiteralBrackets:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
   EnforcedStyleForEmptyBrackets: no_space
   Enabled: true
