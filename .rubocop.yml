@@ -118,6 +118,15 @@ Style/WordArray:
 
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
+  
+Layout/HashAlignment:
+  EnforcedHashRocketStyle:
+    - key
+    - table
+  EnforcedColonStyle:
+    - key
+    - table
+  EnforcedLastArgumentHashStyle: always_ignore
 
 Metrics/AbcSize:
   Max: 200
