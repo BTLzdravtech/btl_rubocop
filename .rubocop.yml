@@ -117,7 +117,7 @@ Style/WordArray:
   Enabled: true
 
 Style/TernaryParentheses:
-  EnforcedStyle: require_parentheses
+  EnforcedStyle: require_parentheses_when_complex
 
 Metrics/AbcSize:
   Max: 200
