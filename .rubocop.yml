@@ -17,11 +17,6 @@ Layout/ParameterAlignment:
   EnforcedStyle: with_first_parameter
   Enabled: true
 
-Layout/CaseIndentation:
-  EnforcedStyle: case
-  IndentOneStep: true
-  Enabled: true
-
 Layout/ElseAlignment:
   Enabled: false
 
@@ -120,6 +115,9 @@ Style/StringLiteralsInInterpolation:
 Style/WordArray:
   EnforcedStyle: percent
   Enabled: true
+
+Style/TernaryParentheses
+  EnforcedStyle: require_parentheses
 
 Metrics/AbcSize:
   Max: 200
