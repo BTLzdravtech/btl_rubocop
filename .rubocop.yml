@@ -116,7 +116,7 @@ Style/WordArray:
   EnforcedStyle: percent
   Enabled: true
 
-Style/TernaryParentheses
+Style/TernaryParentheses:
   EnforcedStyle: require_parentheses
 
 Metrics/AbcSize:
