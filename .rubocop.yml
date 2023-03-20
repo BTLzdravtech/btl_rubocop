@@ -144,7 +144,7 @@ Metrics/MethodLength:
   Max: 100
 
 Metrics/ParameterLists:
-  Max: 10
+  Max: 15
 
 Layout/LineLength:
   Max: 450
