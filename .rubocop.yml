@@ -119,6 +119,9 @@ Style/WordArray:
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
   
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+  
 Layout/HashAlignment:
   EnforcedHashRocketStyle:
     - key
